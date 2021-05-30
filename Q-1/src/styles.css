@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.user {
+  display: flex;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.user-card {
+  flex: 1;
+  cursor: pointer;
+}
+
+.user-list {
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  background-color: olivedrab;
+}
+
+.user-info {
+  /* max-width: 20rem; */
+  height: 100%;
+  padding: 1rem;
+  background-color: grey;
+}
+
+.user-info > p {
+  line-height: 1.6;
+  font-size: 0.8rem;
+}
